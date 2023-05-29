@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia de Viajes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Agencia de Viajes</h1>
+        <ul class="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#destinos">Destinos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <h2>Bienvenido a nuestra Agencia de Viajes</h2>
+        <p>Explora el mundo y descubre nuevas aventuras con nosotros.</p>
+        <a href="#destinos" class="btn">Explora nuestros destinos</a>
+      </div>
+    </section>
+
+    <section id="destinos" class="destinations">
+      <div class="container">
+        <h2>Destinos</h2>
+        <div class="destination">
+          <img src="./img/machu.jpg" alt="Destino 1">
+          <h3>Destino 1</h3>
+          <p>Descubre la belleza de este increíble lugar.</p>
+          <a href="#">Ver detalles</a>
+        </div>
+        <div class="destination">
+          <img src="./img/huacachina.jpg" alt="Destino 2">
+          <h3>Destino 2</h3>
+          <p>Sumérgete en la cultura y tradiciones locales.</p>
+          <a href="#">Ver detalles</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Derechos de autor &copy; 2023 Agencia de Viajes. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
